@@ -28,7 +28,7 @@ export const GmailApiProvider = ({ children }) => {
           apiKey: "AIzaSyAOKvw3Bh_mf4mgRJ2JyQLNZSVidmogk9o", // Use your API_KEY
           clientId:
             "209177226023-dv7fd0gg4cl14ql4i75l6jh084r919a2.apps.googleusercontent.com", // Use your CLIENT_ID
-          redirectUri: "http://localhost:3000/inbox", // Add this line
+      
           discoveryDocs: [
             "https://www.googleapis.com/discovery/v1/apis/gmail/v1/rest",
           ],
