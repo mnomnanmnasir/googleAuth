@@ -8,7 +8,6 @@ import MenuItem from '@mui/material/MenuItem';
 import Tooltip from '@mui/material/Tooltip';
 import * as React from 'react';
 import { signOut } from '../config/conf';
-import { Link } from 'react-router-dom';
 
 function AccountMenu() {
 
@@ -91,9 +90,7 @@ function AccountMenu() {
           <ListItemIcon>
             <Logout fontSize="small" />
           </ListItemIcon>
-          <Link to='/login' style={{ textDecoration: 'none', color: 'black' }}>
-            Logout
-          </Link>
+          Logout
         </MenuItem>
       </Menu>
     </React.Fragment>

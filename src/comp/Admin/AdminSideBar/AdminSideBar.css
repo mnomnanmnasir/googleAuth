@@ -1,0 +1,80 @@
+/* AdminSideBar.css */
+
+.admin-sidebar {
+    width: 260px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    left: 59px;
+    /* background-color: #f6f4fe; */
+    color: #706f6f;
+    height: 100vh;
+    position: fixed;
+    top: 75px;
+    /* Adjusted margin from the top */
+    padding-top: 2%;
+    /* Reduced padding from the top */
+    /* Neumorphic box shadow */
+    /* box-shadow: 8px 8px 16px #ddd6f4, -8px -8px 16px #ffffff; */
+    overflow-y: auto;
+    /* Added to handle overflow */
+    z-index: 1000;
+    /* Ensure the sidebar stays on top */
+}
+
+.admin-sidebar-menu {
+    margin-top: 10px;
+}
+
+.admin-sidebar-menu h5 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 15px 0 5px 15px;
+    /* Adjusted margin */
+}
+
+.admin-sidebar-menu ul {
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.admin-sidebar-menu li {
+    /* margin-left: 15px; */
+    /* Reduced left margin */
+    padding: 10px 7px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    /* Added border-radius */
+}
+
+.admin-sidebar-menu li:hover,
+.admin-sidebar-menu li.active {
+    background-color: #2D8647;
+    /* Adjusted hover background color */
+    color: white;
+    /* Darker text color on hover */
+}
+
+.admin-sidebar-heading {
+    padding: 15px 20px;
+    background-color: #f6f4fe;
+    /* Slightly darker background color for heading */
+    margin-bottom: 5px;
+    /* Added margin bottom to reduce the gap */
+    /* Match border color with background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add slight shadow */
+    cursor: default;
+    /* Cursor change to default */
+}
+
+.admin-sidebar-heading:hover {
+    background-color: #f6f4fe;
+    /* No change on hover for heading */
+}
+
+.admin-content {
+    margin-left: 350px;
+    /* Space for sidebar */
+    /* padding: 20px; */
+}

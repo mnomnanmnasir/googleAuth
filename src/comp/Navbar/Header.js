@@ -13,14 +13,15 @@ const NavBar = () => {
   const location = useLocation()
 
   const knownRoutes = [
-    '/gmail',
     '/deals',
+    '/gmail',
     '/docs',
+    '/calender',
     '/sstrack',
     '/verdebooks',
-    '/clickHr',
-    '/calender',
+    '/click HR',
     '/caiif',
+    '/campaigns',
   ];
   
   const capitalizeFirstLetter = (string) => {
@@ -39,7 +40,7 @@ const NavBar = () => {
   return (
     <>
       <nav className="navbar">
-        <h1 style={{ color: "black", marginLeft:"70px", fontWeight:"500" }}>{formattedPath(location.pathname)}</h1>
+        <h1 style={{ color: "black", marginLeft:"30px", fontWeight:"500" }}>{formattedPath(location.pathname)}</h1>
         <div className="search-bar">
           <input style={{
             border: "1px solid #1d1f273d",

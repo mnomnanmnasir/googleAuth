@@ -29,7 +29,7 @@ const SideBar = ({ items, setItems, icons }) => {
                         className={`sidebar-item ${item.isActive ? 'selected' : ''}`}
                         onClick={() => {
                             if (item.path === "/") {
-                                window.location.href = "https://infiniti-suite-web.vercel.app/header";
+                                window.location.href = "https://infiniti-suite-final.vercel.app/";
                             } else {
                                 navigate(item.path);
                                 setItems((prevItems) => prevItems.map((it, ind) => index === ind ? { ...it, isActive: true } : { ...it, isActive: false }));

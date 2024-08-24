@@ -12,7 +12,7 @@ import { IoArrowDown } from "react-icons/io5";
 import CreateTask from './CreateTask';
 
 const DealsHeader = () => {
-
+    
     const [tabs, setTabs] = React.useState({
         active1: false,
         active2: false,

@@ -5,13 +5,11 @@ import md5 from 'md5';
 import Loader2 from './Loader2';
 
 const Docs = () => {
-
+    
     const [docs, setDocs] = useState([]);
     const [loading, setLoading] = useState(false);
     // const clientId = "928209376096-euig13evhrr352f9m3cov0t8aq4o4dj7.apps.googleusercontent.com";
-    const clientId = "209177226023-dv7fd0gg4cl14ql4i75l6jh084r919a2.apps.googleusercontent.com"// Use your CLIENT_ID
-
-
+    const clientId = "209177226023-dv7fd0gg4cl14ql4i75l6jh084r919a2.apps.googleusercontent.com";
     const apiKey = "AIzaSyAOKvw3Bh_mf4mgRJ2JyQLNZSVidmogk9o";
     const discoveryDocs = ["https://www.googleapis.com/discovery/v1/apis/drive/v3/rest"];
     const scope = "https://www.googleapis.com/auth/drive.readonly";
@@ -135,7 +133,7 @@ const Docs = () => {
                     justifyContent: 'center',
                     alignItems: 'center',
                     width: '100%',
-                    height: '20vh',
+                    height: '80vh',
                 }}>
                     <Loader2 />
                 </div>

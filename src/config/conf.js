@@ -6,7 +6,7 @@ const signOut = () => {
     gapi.auth2.getAuthInstance().signOut()
         .then(() => {
             console.log("User signed out.");
-            window.location.href = "https://infiniti-suit.vercel.app/"
+            window.location.href = "https://infiniti-suite-final.vercel.app/"
         })
         .catch((error) => {
             console.error("Error signing out: ", error);

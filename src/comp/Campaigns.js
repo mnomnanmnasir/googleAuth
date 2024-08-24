@@ -42,7 +42,7 @@ function Campaigns() {
                         color: "whitesmoke",
                     }}
                     >Get started for free</button>
-                    <p style={{ fontSize: "16px", color: "grey", fontWeight: "500", marginTop: 20 }}>Free during Pipedrive trial. <a href='#'>View pricing.</a></p>
+                    <p style={{ fontSize: "16px", color: "grey", fontWeight: "500", marginTop: 20 }}>Free during Infiniti Suit trial. <a href='#'>View pricing.</a></p>
                 </div>
             </div>
         </div>

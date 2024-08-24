@@ -1,0 +1,131 @@
+.admin-panel {
+    display: flex;
+    /* position: relative; */
+    /* width: 99%; */
+    /* width: calc(100% - 350px); */
+    /* height: calc(100% - 39px); */
+    /* height: 84vh; */
+
+    left: 60px;
+    background-color: #fcfcfc;
+    /* Optional: background color for admin panel */
+}
+
+.admin-content {
+    margin-left: 210px;
+    margin-top: 80px;
+    padding: 30px;
+    width: calc(100% - 400px);
+    /* height: calc(100% - 39px); */
+    height: 84vh;
+    /* background-color: #f3f2f2; */
+    /* box-shadow: inset 6px 6px 12px #c0bfc0, inset -6px -6px 12px #ffffff; */
+    border-radius: 16px;
+    overflow-y: auto;
+}
+
+.admin-content h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.5em;
+}
+
+
+.upper-half {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-details {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.user-details p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.edit-button {
+    background-color: #7fc45b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.check-user-button {
+    background-color: #7fc45b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Accept-reject-button {
+    background-color: #e0e0e0;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    /* Ensure consistent button height */
+    box-shadow: 7px 7px 10px #bebebe, -7px -7px 10px #ffffff;
+    transition: all 0.3s ease;
+}
+
+.Accept-reject-button.reject {
+    background-color: #f44336;
+    /* Different color for reject button */
+    color: #fff;
+    /* Ensure text is visible on red background */
+}
+
+.Accept-reject-button.reject:hover {
+    background-color: #d32f2f;
+    /* Adjusted color for reject button on hover */
+    box-shadow: inset 7px 7px 10px #a60000, inset -7px -7px 10px #ff7777;
+    /* Matching neumorphic style */
+}
+
+.Accept-reject-button:hover {
+    box-shadow: inset 7px 7px 10px #757575, inset -7px -7px 10px #c7c6c6;
+}
+
+.edit-button:hover {
+    background-color: #4b7436
+}
+
+.lower-half {
+    margin-left: 10px;
+
+}
+
+.separator {
+    height: 2px;
+    width: 100%;
+    background-color: #ddd;
+    /* Choose your preferred color */
+    margin: 10px 0;
+}
+
+.lower-half h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.MuiBackdrop-root {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Dark translucent background */
+}

@@ -1,8 +1,3 @@
-body {
-
-    /* overflow: hidden; */
-}
-
 .custom-sidebar {
     display: flex;
     flex-direction: column;
@@ -157,9 +152,4 @@ body {
     height: 24px;
     margin-right: 10px;
     margin-left: 20px;
-}
-
-
-.sidebar-container {
-    overflow: hidden;
 }
